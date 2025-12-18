@@ -1,6 +1,6 @@
 # DailyMate 🚀
 
-[cite_start]**DailyMate** adalah platform pengembangan diri yang didesain untuk kesederhanaan dan konsistensi[cite: 783]. [cite_start]Aplikasi ini membantu pengguna membangun kebiasaan positif melalui *random task generator* (generator tugas) yang memberikan tugas mikro berdasarkan kategori fokus: Kesehatan, Sosial, atau Literatur[cite: 784, 785].
+**DailyMate** adalah platform pengembangan diri yang didesain untuk kesederhanaan dan konsistensi. Aplikasi ini membantu pengguna membangun kebiasaan positif melalui *random task generator* (generator tugas) yang memberikan tugas mikro berdasarkan kategori fokus: Kesehatan, Sosial, atau Literatur.
 
 ## 👥 Anggota Kelompok 5
 
@@ -15,24 +15,24 @@
 
 ## ✨ Fitur Utama
 
-1.  [cite_start]**Random Task Generator**: Mendapatkan tugas acak dari database berdasarkan kategori (Health, Social, Literature)[cite: 796].
-2.  [cite_start]**Mastery Level (XP System)**: Sistem gamifikasi di mana pengguna mendapatkan XP setiap kali menyelesaikan tugas untuk menaikkan level di setiap kategori[cite: 787].
-3.  [cite_start]**Task History**: Melacak riwayat tugas yang telah diselesaikan, dikelompokkan berdasarkan waktu (Today, Yesterday, Older)[cite: 807].
-4.  [cite_start]**Authentication**: Login dan Sign Up aman menggunakan Supabase Auth[cite: 873].
+1.  **Random Task Generator**: Mendapatkan tugas acak dari database berdasarkan kategori (Health, Social, Literature).
+2.  **Mastery Level (XP System)**: Sistem gamifikasi di mana pengguna mendapatkan XP setiap kali menyelesaikan tugas untuk menaikkan level di setiap kategori.
+3.  **Task History**: Melacak riwayat tugas yang telah diselesaikan, dikelompokkan berdasarkan waktu (Today, Yesterday, Older).
+4.  **Authentication**: Login dan Sign Up aman menggunakan Supabase Auth.
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan
 
-* [cite_start]**Frontend Framework**: Flutter (Dart) [cite: 873]
-* [cite_start]**Backend & Database**: Supabase (PostgreSQL) [cite: 863]
-* [cite_start]**Fitur Supabase**: Authentication, Database (CRUD), Realtime[cite: 873].
+* **Frontend Framework**: Flutter (Dart)
+* **Backend & Database**: Supabase (PostgreSQL)
+* **Fitur Supabase**: Authentication, Database (CRUD), Realtime.
 
 ---
 
 ## 📂 Struktur Folder
 
-Berikut adalah struktur folder utama dalam folder `lib/` proyek ini:
+Berikut adalah struktur folder utama dalam direktori `lib/` proyek ini:
 
 ```text
 lib/
