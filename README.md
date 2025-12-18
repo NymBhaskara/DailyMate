@@ -30,6 +30,55 @@
 
 ---
 
+## 💻 Cara Instalasi
+
+Ikuti langkah-langkah berikut untuk menyiapkan proyek di lingkungan lokal Anda:
+
+1.  **Prasyarat**
+    Pastikan komputer Anda telah terinstal:
+    * **Flutter SDK** (Versi terbaru stable)
+    * **Git**
+    * **Visual Studio Code** atau **Android Studio**
+
+2.  **Clone Repository**
+    Buka terminal atau command prompt, lalu jalankan perintah berikut untuk mengunduh kode sumber:
+    ```bash
+    git clone [https://github.com/NymBhaskara/DailyMate.git](https://github.com/NymBhaskara/DailyMate.git)
+    ```
+
+3.  **Masuk ke Direktori Proyek**
+    ```bash
+    cd DailyMate
+    ```
+
+4.  **Instal Dependencies**
+    Unduh semua library yang diperlukan (seperti `supabase_flutter`, dll) dengan perintah:
+    ```bash
+    flutter pub get
+    ```
+
+5.  **Konfigurasi Database**
+    Proyek ini menggunakan **Supabase**. Pastikan file konfigurasi (biasanya di `lib/main.dart` atau `lib/env.dart`) sudah menyertakan **URL** dan **Anon Key** Supabase yang valid agar aplikasi dapat terhubung ke database.
+
+---
+
+## ▶️ Cara Menjalankan Aplikasi
+
+Setelah proses instalasi selesai, Anda dapat menjalankan aplikasi dengan langkah berikut:
+
+1.  **Siapkan Emulator / Device**
+    * Buka **Android Emulator** atau **iOS Simulator**.
+    * Atau, hubungkan perangkat fisik Anda dan pastikan mode *USB Debugging* aktif.
+
+2.  **Jalankan Perintah Run**
+    Ketik perintah berikut di terminal:
+    ```bash
+    flutter run
+    ```
+
+3.  **Tunggu Proses Build**
+    Tunggu beberapa saat hingga proses *build* selesai dan aplikasi terbuka di emulator/perangkat Anda.
+
 ## 📂 Struktur Folder
 
 Berikut adalah struktur folder utama dalam direktori `lib/` proyek ini:
